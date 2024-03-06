@@ -31,7 +31,30 @@
 100% {background-size: 0 0.07em, 100% 0.08em;}
 }
 
-.sec-box {height: 100%; display: flex; align-items: center; justify-content: space-between;}
+.sec-box {height: 100vh; display: flex; align-items: center; justify-content: space-between;}
 .sec-left {width: 40%; display: flex; align-items: center; justify-content: space-between;}
 .sec-tit {font-size: 48px; display: flex; align-items: center; font-family: 'Nanum Myeongjo', serif;}
 .sec-tit span {font-size: 70px; letter-spacing: -10px; display: block; margin-right: 15px;}
+
+.sec-btn-bt {display: flex; align-items: flex-start; flex-direction: column; margin-right: -50px; position: relative; z-index: 1; gap: 30px;}
+.sec-btn-bt a {font-size: 22px; line-height: 2; transition: all 0.2s;}
+
+.sec-right {background: url('../img/pf_img01.jpg')no-repeat center / cover; width: 60%; padding-bottom: 40%; margin-left: auto; filter: brightness(0.6); transform: translate(100%,-50%); position: absolute; top: 50%; right: 0;}
+.m-bg02 {background-image: url('../img/pf_img02.jpg')}
+.m-bg03 {background-image: url('../img/pf_img03.jpg')}
+.m-bg04 {background-image: url('../img/pf_img04.jpg')}
+.m-bg05 {background-image: url('../img/pf_img05.jpg')}
+.m-bg06 {background-image: url('../img/pf_img06.jpg')}
+.m-bg07 {background-image: url('../img/pf_img07.jpg')}
+.m-bg08 {background-image: url('../img/pf_img08.jpg')}
+.m-bg09 {background-image: url('../img/pf_img09.jpg')}
+
+footer {padding: 6% 0 0;}
+.f-top .sec1-tbox {padding: 9% 0 14%; text-align: center;}
+.f-top .sec1-tbox p {font-size: 20px;}
+.f-top .sec1-tbox p + em {font-size: 26px; padding-top: 12px;}
+.f-bot {display: flex; flex-flow: row wrap; align-items: center; justify-content: space-between;}
+.f-right {display: flex; align-items: center; flex-flow: row wrap;}
+.f-right li:first-child {margin-right: 20px;}
+.f-right a {display: inline-block; border:1px solid #fff; border-radius: 30px; padding: 10px 30px; font-size: 14px; transition: all 0.3s;}
+.f-right a:hover {background: #fff; color: #000; border: 1px solid #fff;} 
