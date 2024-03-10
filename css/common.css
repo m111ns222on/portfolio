@@ -170,10 +170,11 @@ footer {padding: 8% 0 0;}
 .s01-left {display: flex; flex-flow: row wrap; align-items: flex-start; justify-content: space-between;}
 .s01-left li {width: 49%;}
 .s01-left li:first-child, .s01-left li:nth-child(2) {margin-bottom: 35px;}
-.s01-left li:nth-child(2) {display: none;}
+/* .s01-left li:nth-child(2) {display: none;} */
+.s01-left li:last-child {display: none;}
 .s01-left h3 {font-size: 20px; font-weight: 600; color: #1e1e1e; margin-bottom: 10px;}
 .s01-left p {font-size: 18px; color: #7a7a7a; font-weight: 400;}
-.s01-left p em {display: none;}
+/*.s01-left p em {display: none;}*/
 .s01-right h4 {font-size: 18px; color: #1e1e1e; line-height: 1.6; font-weight: 600;}
 
 @media(max-width: 1280px){
